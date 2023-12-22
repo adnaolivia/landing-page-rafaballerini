@@ -5,26 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--codigo adaptado para outros dispositivos-->
     <meta name="description" content="um bot que irá deixar sua comunidade segura de um jeito fácil!">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link
+    rel="shortcut icon"
+    href="../static/img/logo.png"
+    type="image/x-icon"
+  />
     <title>Balle Bot - Modere sua comunidade do Discord</title>
 </head>
 
 <body>
-    <header>
-        <img src="../static/img/logo.png" alt="Logo da comunidade Ballerini">
-        <nav>
-            <a>Comunidade Ballerini</a>
-            <a>Tutorial</a>
-            <a>Open Source</a>
-            <a>Comandos</a>
+    <header class="header">
+        <img class="header-img" src="../static/img/logo.png" alt="Logo da comunidade Ballerini">
+        <nav class="header-menu">
+            <a class="header-menu-item">Comunidade Ballerini</a>
+            <a class="header-menu-item">Tutorial</a>
+            <a class="header-menu-item">Open Source</a>
+            <a class="header-menu-item">Comandos</a>
         </nav>
     </header>
 
-    <main>
+    <main class="main">
+        <section class="main-content">
+            <div class="main-content-txt">
+                <h1 class="main-content-txt-title">Balle Bot</h1>
+                <h2 class="main-content-txt-subtitle">Deixe sua comunidade segura de um jeito fácil</h2>
+                <button class="main-content-txt-button">Me adicione!</button>
+            </div>
+            <img class="main-content-txt-img" src="../static/img/balle-bot.png" alt="imagem da balle bot">
+        </section>
 
+        <section class="second-content">
+            <h3 class="second-content-title">O que ela faz por você?</h3>
+            <p class="second-content-paragraph">1. Cria um <strong>sistema de verificação capcha</strong> para novos membros garantirem que não são robôs</p>
+            <p class="second-content-paragraph">2. Possui um <strong>sistema de banimento automático</strong> para links suspeitos que forem enviados na comunidade</p>
+            <p class="second-content-paragraph">3. <strong>Sistema de avisos e banimento manual</strong>, para pessoas administradoras utilizarem</p>
+        </section>
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <img class="footer-img" src="../static/img/ballerini.png" alt="logo ballerini">
     </footer>
 </body>
 </html>
