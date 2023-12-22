@@ -2,4 +2,4 @@
 
 <h2>BalleBot</h2>
 
-<img src="../landing-page-rafaballerini/src/BalleBot.png">
+<img src="../landing-page-rafaballerini/page/static/img/BalleBot.png">
